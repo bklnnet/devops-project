@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pip install --upgrade --user awsebcli
 mkdir HelloWorld
 cd HelloWorld
 eb init -p PHP
